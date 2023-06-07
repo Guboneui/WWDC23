@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct WWDC23App: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
+  var body: some Scene {
+    WindowGroup {
+      ContentView()
     }
+    .modelContainer(for: Person.self)
+  }
 }
+
+/*
+ Attach the model container to the window group
+ You can also add additional peorperties like an undo manager, etc.
+ */
