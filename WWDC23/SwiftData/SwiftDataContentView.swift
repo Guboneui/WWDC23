@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  SwiftDataContentView.swift
 //  WWDC23
 //
 //  Created by 구본의 on 2023/06/07.
@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 
-struct ContentView: View {
+struct SwiftDataContentView: View {
   /// Context
   @Environment(\.modelContext) private var ctx
   

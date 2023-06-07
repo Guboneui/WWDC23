@@ -10,10 +10,15 @@ import SwiftUI
 @main
 struct WWDC23App: App {
   var body: some Scene {
+//    /// SwiftData
+//    WindowGroup {
+//      SwiftDataContentView()
+//    }
+//    .modelContainer(for: Person.self)
+    
     WindowGroup {
-      ContentView()
+      ScrollViewContentView()
     }
-    .modelContainer(for: Person.self)
   }
 }
 
