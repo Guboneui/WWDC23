@@ -13,6 +13,7 @@
 		2CCB150C2A30CDF90001A512 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CCB150B2A30CDF90001A512 /* Preview Assets.xcassets */; };
 		2CCB15172A30D5B30001A512 /* ScrollViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB15162A30D5B30001A512 /* ScrollViewContentView.swift */; };
 		2CCB151A2A30DE5F0001A512 /* ScrollViewTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB15192A30DE5F0001A512 /* ScrollViewTransitionContentView.swift */; };
+		2CCB151D2A30DFE90001A512 /* CustomTransitionContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCB151C2A30DFE90001A512 /* CustomTransitionContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2CCB150B2A30CDF90001A512 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2CCB15162A30D5B30001A512 /* ScrollViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewContentView.swift; sourceTree = "<group>"; };
 		2CCB15192A30DE5F0001A512 /* ScrollViewTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewTransitionContentView.swift; sourceTree = "<group>"; };
+		2CCB151C2A30DFE90001A512 /* CustomTransitionContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				2CCB15042A30CDF80001A512 /* WWDC23App.swift */,
+				2CCB151B2A30DFDB0001A512 /* CustomTransition */,
 				2CCB15182A30DE4D0001A512 /* ScrollViewTransition */,
 				2CCB15132A30D53A0001A512 /* ScrollView */,
 				2CCB15122A30D52E0001A512 /* SwiftData */,
@@ -95,6 +98,14 @@
 				2CCB15192A30DE5F0001A512 /* ScrollViewTransitionContentView.swift */,
 			);
 			path = ScrollViewTransition;
+			sourceTree = "<group>";
+		};
+		2CCB151B2A30DFDB0001A512 /* CustomTransition */ = {
+			isa = PBXGroup;
+			children = (
+				2CCB151C2A30DFE90001A512 /* CustomTransitionContentView.swift */,
+			);
+			path = CustomTransition;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CCB151D2A30DFE90001A512 /* CustomTransitionContentView.swift in Sources */,
 				2CCB15072A30CDF80001A512 /* SwiftDataContentView.swift in Sources */,
 				2CCB15052A30CDF80001A512 /* WWDC23App.swift in Sources */,
 				2CCB15172A30D5B30001A512 /* ScrollViewContentView.swift in Sources */,

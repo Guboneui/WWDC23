@@ -17,7 +17,7 @@ struct WWDC23App: App {
 //    .modelContainer(for: Person.self)
     
     WindowGroup {
-      ScrollViewTransitionContentView()
+      CustomTransitionContentView()
     }
   }
 }
